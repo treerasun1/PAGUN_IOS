@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609F7FEB29B4ED430049BDFF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F7FEA29B4ED430049BDFF /* Config.swift */; };
+		609F7FED29B4F7760049BDFF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F7FEC29B4F7760049BDFF /* Constant.swift */; };
 		60A64F0E29B454A1002CF3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F0D29B454A1002CF3D6 /* AppDelegate.swift */; };
 		60A64F1029B454A1002CF3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F0F29B454A1002CF3D6 /* SceneDelegate.swift */; };
 		60A64F1229B454A1002CF3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F1129B454A1002CF3D6 /* ViewController.swift */; };
@@ -18,9 +20,18 @@
 		60A64F2A29B45BD3002CF3D6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F2929B45BD3002CF3D6 /* UIViewExtension.swift */; };
 		60A64F2C29B46514002CF3D6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F2B29B46514002CF3D6 /* Color.swift */; };
 		60A64F2F29B46A36002CF3D6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F2E29B46A36002CF3D6 /* TextFieldView.swift */; };
+		60A64F3129B4E55F002CF3D6 /* MainOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F3029B4E55F002CF3D6 /* MainOTP.swift */; };
+		60A64F3329B4E58A002CF3D6 /* MainOTPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F3229B4E58A002CF3D6 /* MainOTPLayout.swift */; };
+		60A64F3629B4E87A002CF3D6 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F3529B4E87A002CF3D6 /* UIViewControllerEx.swift */; };
+		60A64F3929B4E908002CF3D6 /* MainActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F3829B4E908002CF3D6 /* MainActivityModel.swift */; };
+		60A64F3C29B4EA0F002CF3D6 /* MainActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A64F3B29B4EA0F002CF3D6 /* MainActivityViewModel.swift */; };
+		BB83EF171879B459FF71EF7A /* Pods_PAGUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D9DECD17C2A1CBC455AA4A /* Pods_PAGUN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A150F85A41E89ECD46BB988 /* Pods-PAGUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAGUN.release.xcconfig"; path = "Target Support Files/Pods-PAGUN/Pods-PAGUN.release.xcconfig"; sourceTree = "<group>"; };
+		609F7FEA29B4ED430049BDFF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		609F7FEC29B4F7760049BDFF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		60A64F0A29B454A1002CF3D6 /* PAGUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAGUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A64F0D29B454A1002CF3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60A64F0F29B454A1002CF3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +45,13 @@
 		60A64F2929B45BD3002CF3D6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		60A64F2B29B46514002CF3D6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		60A64F2E29B46A36002CF3D6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		60A64F3029B4E55F002CF3D6 /* MainOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainOTP.swift; sourceTree = "<group>"; };
+		60A64F3229B4E58A002CF3D6 /* MainOTPLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainOTPLayout.swift; sourceTree = "<group>"; };
+		60A64F3529B4E87A002CF3D6 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		60A64F3829B4E908002CF3D6 /* MainActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityModel.swift; sourceTree = "<group>"; };
+		60A64F3B29B4EA0F002CF3D6 /* MainActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityViewModel.swift; sourceTree = "<group>"; };
+		7CD24543688A1B4B5266877B /* Pods-PAGUN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAGUN.debug.xcconfig"; path = "Target Support Files/Pods-PAGUN/Pods-PAGUN.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D9DECD17C2A1CBC455AA4A /* Pods_PAGUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAGUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB83EF171879B459FF71EF7A /* Pods_PAGUN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +71,8 @@
 			children = (
 				60A64F0C29B454A1002CF3D6 /* PAGUN */,
 				60A64F0B29B454A1002CF3D6 /* Products */,
+				BAB7C10A38B1B0BB98EA9E28 /* Pods */,
+				BD9C5AEB6354814FE90A7757 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +87,7 @@
 		60A64F0C29B454A1002CF3D6 /* PAGUN */ = {
 			isa = PBXGroup;
 			children = (
+				60A64F3429B4E783002CF3D6 /* CConfig */,
 				60A64F2829B45BA8002CF3D6 /* Extensions */,
 				60A64F2229B456D2002CF3D6 /* View */,
 				60A64F0D29B454A1002CF3D6 /* AppDelegate.swift */,
@@ -90,9 +112,13 @@
 		60A64F2329B45791002CF3D6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				60A64F3A29B4E9F7002CF3D6 /* ViewModel */,
+				60A64F3729B4E8EB002CF3D6 /* Model */,
 				60A64F2D29B46A1D002CF3D6 /* Custom */,
 				60A64F2429B457CC002CF3D6 /* MainActivity.swift */,
 				60A64F2629B45850002CF3D6 /* MainActivityLayout.swift */,
+				60A64F3029B4E55F002CF3D6 /* MainOTP.swift */,
+				60A64F3229B4E58A002CF3D6 /* MainOTPLayout.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -114,6 +140,49 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		60A64F3429B4E783002CF3D6 /* CConfig */ = {
+			isa = PBXGroup;
+			children = (
+				60A64F3529B4E87A002CF3D6 /* UIViewControllerEx.swift */,
+				609F7FEA29B4ED430049BDFF /* Config.swift */,
+				609F7FEC29B4F7760049BDFF /* Constant.swift */,
+			);
+			path = CConfig;
+			sourceTree = "<group>";
+		};
+		60A64F3729B4E8EB002CF3D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60A64F3829B4E908002CF3D6 /* MainActivityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60A64F3A29B4E9F7002CF3D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60A64F3B29B4EA0F002CF3D6 /* MainActivityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BAB7C10A38B1B0BB98EA9E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD24543688A1B4B5266877B /* Pods-PAGUN.debug.xcconfig */,
+				3A150F85A41E89ECD46BB988 /* Pods-PAGUN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD9C5AEB6354814FE90A7757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9DECD17C2A1CBC455AA4A /* Pods_PAGUN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60A64F1E29B454A1002CF3D6 /* Build configuration list for PBXNativeTarget "PAGUN" */;
 			buildPhases = (
+				9E4B1766955A285D23A8C32D /* [CP] Check Pods Manifest.lock */,
 				60A64F0629B454A1002CF3D6 /* Sources */,
 				60A64F0729B454A1002CF3D6 /* Frameworks */,
 				60A64F0829B454A1002CF3D6 /* Resources */,
+				F0BE19440C41CFD056AD3B9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,17 +251,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E4B1766955A285D23A8C32D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PAGUN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BE19440C41CFD056AD3B9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PAGUN/Pods-PAGUN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PAGUN/Pods-PAGUN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PAGUN/Pods-PAGUN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60A64F0629B454A1002CF3D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A64F3629B4E87A002CF3D6 /* UIViewControllerEx.swift in Sources */,
 				60A64F2A29B45BD3002CF3D6 /* UIViewExtension.swift in Sources */,
+				609F7FED29B4F7760049BDFF /* Constant.swift in Sources */,
 				60A64F1229B454A1002CF3D6 /* ViewController.swift in Sources */,
+				609F7FEB29B4ED430049BDFF /* Config.swift in Sources */,
 				60A64F2F29B46A36002CF3D6 /* TextFieldView.swift in Sources */,
+				60A64F3C29B4EA0F002CF3D6 /* MainActivityViewModel.swift in Sources */,
 				60A64F2C29B46514002CF3D6 /* Color.swift in Sources */,
 				60A64F0E29B454A1002CF3D6 /* AppDelegate.swift in Sources */,
+				60A64F3129B4E55F002CF3D6 /* MainOTP.swift in Sources */,
+				60A64F3329B4E58A002CF3D6 /* MainOTPLayout.swift in Sources */,
 				60A64F1029B454A1002CF3D6 /* SceneDelegate.swift in Sources */,
+				60A64F3929B4E908002CF3D6 /* MainActivityModel.swift in Sources */,
 				60A64F2529B457CC002CF3D6 /* MainActivity.swift in Sources */,
 				60A64F2729B45850002CF3D6 /* MainActivityLayout.swift in Sources */,
 			);
@@ -334,6 +454,7 @@
 		};
 		60A64F1F29B454A1002CF3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD24543688A1B4B5266877B /* Pods-PAGUN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +482,7 @@
 		};
 		60A64F2029B454A1002CF3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A150F85A41E89ECD46BB988 /* Pods-PAGUN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
