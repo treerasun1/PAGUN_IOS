@@ -7,14 +7,24 @@
 
 import Foundation
 import UIKit
+import AEOTPTextField
 
-class MainOTP: MainOTPLayout {
+
+class MainOTP: MainOTPLayout ,AEOTPTextFieldDelegate{
+    
+    func didUserFinishEnter(the code: String) {
+            print(code)
+        }
     
     override func viewDidLoad() {
         super.viewDidLoad()
          setupView()
+
+        OTPTextField.otpDelegate = self
+        OTPTextField.configure(with: 6)
     }
    
+    
     
 
     

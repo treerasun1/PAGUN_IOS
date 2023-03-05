@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AEOTPTextField
 
 class MainOTPLayout: UIViewController{
 
@@ -37,12 +38,11 @@ class MainOTPLayout: UIViewController{
         return label
     }()
     
-    let MboileTextFieldView : TextFieldView = {
-        let txf = TextFieldView(
+    
+    let OTPTextField : AEOTPTextField = {
+        let txf = AEOTPTextField(
             frame: CGRect(origin: CGPoint.zero, size: CGSize(width: textFieldWidth, height: textFieldHeight)))
-        txf.label.text = "เบอร์โทรศัพท์"
-        txf.textField.tag = 1
-        txf.cornerRadius = 10;
+        
         return txf
     }()
     
@@ -60,6 +60,7 @@ class MainOTPLayout: UIViewController{
     
    
      func setupView() {
+         
         view.backgroundColor = UIColor.AppColor.background
         view.addSubview(lbl)
         view.addConstraintsWithFormat("V:[v0(60)]", views: lbl)
@@ -71,15 +72,15 @@ class MainOTPLayout: UIViewController{
         view.addConstraintsWithFormat("H:|-20-[v0]-20-|", views: lbl2)
         lbl2.topAnchor.constraint(equalTo: lbl.bottomAnchor,constant: 5).isActive = true
         
-        view.addSubview(MboileTextFieldView)
-        view.addConstraintsWithFormat("V:[v0(40)]", views: MboileTextFieldView)
-        view.addConstraintsWithFormat("H:|-20-[v0]-20-|", views: MboileTextFieldView)
-        MboileTextFieldView.topAnchor.constraint(equalTo: lbl2.bottomAnchor,constant: 40).isActive = true
+        view.addSubview(OTPTextField)
+        view.addConstraintsWithFormat("V:[v0(40)]", views: OTPTextField)
+        view.addConstraintsWithFormat("H:|-20-[v0]-20-|", views: OTPTextField)
+         OTPTextField.topAnchor.constraint(equalTo: lbl2.bottomAnchor,constant: 40).isActive = true
         
         view.addSubview(confirmbtn)
         view.addConstraintsWithFormat("V:[v0(40)]", views: confirmbtn)
         view.addConstraintsWithFormat("H:|-80-[v0]-80-|", views: confirmbtn)
-        confirmbtn.topAnchor.constraint(equalTo: MboileTextFieldView.bottomAnchor,constant: 40).isActive = true
+        confirmbtn.topAnchor.constraint(equalTo: OTPTextField.bottomAnchor,constant: 40).isActive = true
         
          lbl2.text = "รหัสยืนยันส่งไปยัง SMS บนโทรศัพท์มือถือของท่าน ที่ได้ระบุหมายเลข \(Constant.MoblieNumber)"
     }

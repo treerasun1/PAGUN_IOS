@@ -1,4 +1,5 @@
 PODS:
+  - AEOTPTextField (1.2.6)
   - Alamofire (5.4.3)
   - DropDown (2.3.13)
   - FSCalendar (2.8.2)
@@ -11,6 +12,7 @@ PODS:
   - RxSwift (6.2.0)
 
 DEPENDENCIES:
+  - AEOTPTextField
   - Alamofire
   - DropDown
   - FSCalendar
@@ -20,6 +22,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AEOTPTextField
     - Alamofire
     - DropDown
     - FSCalendar
@@ -29,6 +32,7 @@ SPEC REPOS:
     - RxSwift
 
 SPEC CHECKSUMS:
+  AEOTPTextField: a275823fde05601c5da7f8fb66aaecb41289b370
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
@@ -37,6 +41,6 @@ SPEC CHECKSUMS:
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
-PODFILE CHECKSUM: 610aef02aadfca96208c69a437acb144ce6effaa
+PODFILE CHECKSUM: 16f6ffabcbf39e36b4cc0379e81d4e3a667b7046
 
 COCOAPODS: 1.12.0

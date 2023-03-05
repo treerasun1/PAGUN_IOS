@@ -12,6 +12,6 @@ target 'PAGUN' do
     pod 'FSCalendar'
     pod 'RxSwift'
     pod 'RxCocoa'
-  
+    pod 'AEOTPTextField'
 
 end
