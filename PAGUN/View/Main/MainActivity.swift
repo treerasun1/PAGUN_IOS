@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 class MainActivity: MainActivityLayout {
     
@@ -15,6 +16,8 @@ class MainActivity: MainActivityLayout {
         setupView()
         confirmbtn.addTarget(self, action: #selector(SendOTP), for: .touchUpInside)
     }
+    
+    
     
     func AlertUI(Message:String,title:String)
     {
@@ -75,9 +78,23 @@ class MainActivity: MainActivityLayout {
         self.AlertUI(Message: "Enter", title: "Error")
     }
     }
-   
-    
-
-    
 }
 
+struct MainActivityPreView: UIViewControllerRepresentable{
+    
+    typealias UIViewControllerType = MainActivity
+    
+    func makeUIViewController(context: Context) -> MainActivity {
+        MainActivity()
+    }
+    
+    func updateUIViewController(_ uiViewController: MainActivity, context: Context) {
+        
+    }
+}
+
+struct MainActivity_Previews: PreviewProvider{
+    static var previews: some View{
+        MainActivityPreView()
+    }
+}
